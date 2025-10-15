@@ -19,7 +19,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: REACT_APP_BACKEND_URL
-          value:  http://127.0.0.1:62744/api/tasks # replace with your minikube ip
+          value:   http://127.0.0.1:64305/api/tasks # replace with your minikube ip
         ports:
         - containerPort: 3000
 ---
